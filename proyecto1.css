@@ -107,16 +107,15 @@ section h2 {
   transition: background-color 0.3s ease;
 }
 
-
-#Galería de imágenes {
+#galeria .contenedor-galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
 
 .tarjeta-obra {
-  background-color: #59a5f2;
-  border: 1px solid #2b466b;
+  background-color: #77aaec;
+  border: 1px solid #285681;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -128,11 +127,24 @@ section h2 {
 }
 
 .tarjeta-obra img {
-  width: 40%;
+  width: 35%;
   height: auto;
 }
 
+.info-obra {
+  padding: 1rem;
+}
 
+.info-obra h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  color: #112d3a;
+}
+
+.info-obra p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+}
 footer {
   background-color: #93c4ec;
   color: #317087;
