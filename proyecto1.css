@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  color: #192024; 
+  color: #092567; 
 }
 
 
@@ -19,19 +19,19 @@ header {
 header h1 {
   font-size: 2rem;
   margin: 0;
-  color: #5c4033; 
-  text-shadow: 1px 1px 2px #fff8ec; 
+  color: #9ce1ea; 
+  text-shadow: 1px 1px 2px #060b17; 
 }
 
 .frase-inicial {
   font-style: italic;
-  color: #8b5e3c;
+  color: #40676e;
   margin-top: 0.5rem;
-  text-shadow: 1px 1px 1px #fff8ec;
+  text-shadow: 1px 1px 1px #293a4d;
 }
 
 nav {
-  background-color: #8b5e3c; 
+  background-color: #79e5e8; 
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -40,14 +40,14 @@ nav {
 }
 
 nav a {
-  color: #fff8ec;
+  color: #5ba4e0;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: gold;
+  color: rgb(55, 69, 97);
 }
 
 
@@ -58,13 +58,13 @@ section {
 }
 
 section h2 {
-  color: #5c4033;
+  color: #045f69;
   text-align: center;
   margin-bottom: 1rem;
 }
 
 #valores {
-  background-color: rgba(232, 198, 154, 0.5);
+  background-color: rgba(131, 234, 234, 0.5);
   border-radius: 8px;
   padding: 1.5rem;
 }
@@ -74,27 +74,27 @@ section h2 {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #fff8ec;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #bae3ef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 #frases th,
 #frases td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #d8c3a5;
+  border-bottom: 1px solid #538499;
 }
 
 #frases th {
-  background-color: #c0a060; 
-  color: #fffdf5;
+  background-color: #add8fb; 
+  color: #16394f;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 #frases tr:hover {
-  background-color: #e3c9a8;
+  background-color: #3f4d99;
   transition: background-color 0.3s ease;
 }
 
@@ -106,8 +106,8 @@ section h2 {
 }
 
 .tarjeta-obra {
-  background-color: #fff8ec;
-  border: 1px solid #d8c3a5;
+  background-color: #59a5f2;
+  border: 1px solid #2b466b;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -130,7 +130,7 @@ section h2 {
 .info-obra h3 {
   margin: 0 0 0.5rem;
   font-size: 1.1rem;
-  color: #8b5e3c;
+  color: #09cff1;
 }
 
 .info-obra p {
@@ -139,14 +139,14 @@ section h2 {
 }
 
 footer {
-  background-color: #8b5e3c;
-  color: #fff8ec;
+  background-color: #93c4ec;
+  color: #317087;
   text-align: center;
   padding: 1rem;
 }
 
 footer a {
-  color: #fff8ec;
+  color: #7ac4df;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -156,5 +156,5 @@ footer a {
 }
 
 footer a:hover {
-  color: gold;
+  color: rgb(83, 151, 177);
 }
