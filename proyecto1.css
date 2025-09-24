@@ -1,5 +1,5 @@
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Times New Roman', 'Times New Roman', Times, serif, serif,;
   background-color: #bcdfe4; 
   margin: 0;
   padding: 0;
@@ -9,29 +9,29 @@ body {
 
 
 header {
-  background-image: url("fondo\ celeste.jpg");
+  background-image: url("azul1.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 3rem 1rem;
 }
 
-header h1 {
+header h2 {
   font-size: 2rem;
   margin: 0;
-  color: #9ce1ea; 
-  text-shadow: 1px 1px 2px #060b17; 
+  color: #163a40; 
+  text-shadow: 1px 1px 2px #303b54; 
 }
 
 .frase-inicial {
   font-style: italic;
-  color: #40676e;
+  color: #3b677d;
   margin-top: 0.5rem;
   text-shadow: 1px 1px 1px #293a4d;
 }
 
 nav {
-  background-color: #79e5e8; 
+  background-color: #75a8bd; 
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -40,14 +40,14 @@ nav {
 }
 
 nav a {
-  color: #5ba4e0;
+  color: #255173;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: rgb(55, 69, 97);
+  color: rgb(2, 3, 5);
 }
 
 
@@ -67,12 +67,12 @@ section h2 {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #83c7dc;
-  box-shadow: 0 2px 8px rgba(32, 62, 97, 0.1);
+  background-color: #75a8bd ;
+  box-shadow: 0 2px 8px rgba(89, 96, 105, 0.1);
 }
 #Oraciones th {
-  background-color: #3f8e9a; 
-  color: #204c55;
+  background-color:  #528daa; 
+  color: #0c1f29;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -94,7 +94,12 @@ section h2 {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
+#Oraciones th {
+  font-size: 24px;
+}
+#Oraciones td {
+  font-size:20px;
+}
 
 
 #frases tr:hover {
@@ -106,39 +111,63 @@ section h2 {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #72b8dd ;
+  background-color: #93d9f0 ;
   box-shadow: 0 2px 8px rgba(32, 62, 97, 0.1);
 }
-#galeria .contenedor-galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  gap: 1.5rem;
-}
 
 #Virtudes h2 {
-  padding: 12px 15px;
+  padding: 30px;
   text-align: left;
-  border-bottom: 1px solid #2e4853;
+  border-bottom: 1px solid #8cd7f7;
 }
 
-#Virtudes h2 {
-  background-color:#72b8dd ; 
+#Virtudes h1 {
   color: #255c6b;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-.tarjeta-obra:hover {
-  transform: scale(1.02);
+#Virtudes table td {
+  font-size: 21px;
+  padding: 12px;
+  list-style: 1.6;
+}
+#Datos li {
+  font-size: 25px;
+}
+#Datos h1 {
+  font-size:30px;
+}
+.contenedor-galeria {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tarjeta-obra {
+  flex: 1 1 calc(100%- 1rem);
+  max-width: 420px;
+  text-align: center;
 }
 
 .tarjeta-obra img {
-  height: 500px;
-  max-width: 500px ;
-  object-fit: cover;
-  display:block;
-  border-radius: 8px;
-  overflow: hidden;
+  width: calc(100% - 0.5rem);
+  max-width: 450px;
+  height: auto;
+  border: 6px solid #000000;
+  box-shadow: 2px 6px 16px rgba(30,30,30,0.2);
+  transition: transform 0.3s ease, rotate 0.3s ease;
+}
+
+.tarjeta-obra:nth-child(odd) {
+  transform: rotate(-1deg);
+}
+.tarjeta-obra:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+.tarjeta-obra img:hover {
+  transform: scale(1.05) rotate(0deg);
 }
 
 footer {
@@ -161,3 +190,5 @@ footer a {
 footer a:hover {
   color: rgb(83, 151, 177);
 }
+
+
